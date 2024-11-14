@@ -1,4 +1,4 @@
-function displayTemperature(response) {
+/*function displayTemperature(response) {
   let city = document.querySelector("#current-city");
   let temp = document.querySelector(".current-temperature-value");
   let temperature = Math.round(response.data.temperature.current); // Access the current temperature
